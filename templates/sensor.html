@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid">
+	
+  <div class="container">
+    <h1 class="display-3" style="text-align:center"><strong>Raspberry Pi-4B Model</strong></h1>
+    <h3 class="display-4" style="text-align:center">DHT11 Sensor Data Live </h3>
+    <br>
+    <br>
+    <h3 class="Tem" style="text-align:center">Temperature <strong> {{temperature}} </strong> C </h3>
+    <h3 class="Hum" style="text-align:center">Humidity <strong> {{humidity}} </strong> % </h3>
+    <br>
+    <br>
+  </div>
+	
+</div>
+
+{%  endblock  %}
