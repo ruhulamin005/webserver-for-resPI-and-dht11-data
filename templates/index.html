@@ -26,17 +26,20 @@
 
 </head>
     <body>
+	<a href="https://api.thingspeak.com/update?api_key=QDYQ1KXG4SN2EWWV&field1=26.5&field2=64.0" class="button">Update to Thingspeak</a>
+	<a href="https://api.thingspeak.com/update?api_key=QDYQ1KXG4SN2EWWV&field3=0" class="button">Turn On Pump</a>
+	
+	<a href="https://api.thingspeak.com/update?api_key=QDYQ1KXG4SN2EWWV&field3=1" class="button">Turn OFF Pump</a>
+	<a href="#" class="button">Pesticide</a>
+	<a href="#" class="button">Vaccum Pump</a>
+	<a href="#" class="button">UV Light</a>
 	
 	
 	{% block content %}
 	s
     	{% endblock %}
 	
-	<a href="https://api.thingspeak.com/update?api_key=QDYQ1KXG4SN2EWWV&field1=26.5&field2=64.0" class="button">Update to Thingspeak</a>
-	<a href="#" class="button">Turn On Pump</a>
-	<a href="#" class="button">Pesticide</a>
-	<a href="#" class="button">Vaccum Pump</a>
-	<a href="#" class="button">UV Light</a>
+	
 	
 	<footer style="text-align:right">Current Server date & time is: {{ time }}</footer>
 	
